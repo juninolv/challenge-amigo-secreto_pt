@@ -20,6 +20,11 @@ const sortFriend = () => {
     const index = getRandomIndex(friends.length);
     const result = document.getElementById('result');
 
+    if (!index) {
+        alert('Please add Names.');
+        return;
+    }
+
     if (result.children.length > 0) {
         result.innerHTML = '';
     }

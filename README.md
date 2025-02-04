@@ -47,6 +47,22 @@ This project is a simple web application for organizing a Secret Santa event. Us
 
 ## Examples
 
+### Adding valid friends names
+
 ![example1.png](assets/example1.png)
 
+### Adding invalid friends names
+
+![example4.png](assets/example4.png)
+
+![example5.png](assets/example5.png)
+
+![example6.png](assets/example6.png)
+
+### Sorting friends names
+
 ![example2.png](assets/example2.png)
+
+### Sorting with empty names
+
+![example3.png](assets/example3.png)
