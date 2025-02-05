@@ -3,6 +3,7 @@ const friends = [];
 const addFriend = () => {
     const name = document.getElementById('friend');
     const listFriends = document.getElementById('listFriends');
+    const result = document.getElementById('result');
 
     if (isValidName(name)) {
         alert('Please enter a valid Name.');
@@ -13,6 +14,7 @@ const addFriend = () => {
     addToArray(name.value);
     addToList(name.value, listFriends);
 
+    result.innerHTML = '';
     name.value = '';
 };
 
